@@ -1,0 +1,91 @@
+[1mdiff --git a/Models/Curso.cs b/Models/Curso.cs[m
+[1mindex e88fa67..21f2ae5 100644[m
+[1m--- a/Models/Curso.cs[m
+[1m+++ b/Models/Curso.cs[m
+[36m@@ -38,4 +38,5 @@[m [mnamespace ExemploExplorando.Models[m
+             }[m
+         }[m
+     }[m
+[31m-}[m
+\ No newline at end of file[m
+[32m+[m
+[32m+[m[32m}[m
+[1mdiff --git a/Program.cs b/Program.cs[m
+[1mindex 4af991b..b3d233a 100644[m
+[1m--- a/Program.cs[m
+[1m+++ b/Program.cs[m
+[36m@@ -1,15 +1,41 @@[m
+ ﻿using ExemploExplorando.Models;[m
+ [m
+[31m-Pessoa p1 = new Pessoa(nome:"Ailson",sobrenome:"Oliveira");[m
+[31m-Pessoa p2 = new Pessoa(nome:"Beatriz",sobrenome:"Mazzucco");[m
+[32m+[m[32mstring numero1 = "10";[m
+[32m+[m[32mstring numero2 = "20";[m
+ [m
+[31m-Curso cursoDeIngles = new Curso();[m
+[31m-cursoDeIngles.Nome = "Inglês";[m
+[31m-cursoDeIngles.Alunos = new List<Pessoa>();[m
+ [m
+[31m-cursoDeIngles.AdicionarAluno(p1);[m
+[31m-cursoDeIngles.AdicionarAluno(p2);[m
+[31m-cursoDeIngles.ListarAlunos();[m
+[32m+[m[32mstring resultado = numero1 + numero2;[m
+[32m+[m
+[32m+[m[32mConsole.WriteLine(resultado);[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m// Pessoa p1 = new Pessoa(nome:"Ailson",sobrenome:"Oliveira");[m
+[32m+[m[32m// Pessoa p2 = new Pessoa(nome:"Beatriz",sobrenome:"Mazzucco");[m
+[32m+[m
+[32m+[m[32m// Curso cursoDeIngles = new Curso();[m
+[32m+[m[32m// cursoDeIngles.Nome = "Inglês";[m
+[32m+[m[32m// cursoDeIngles.Alunos = new List<Pessoa>();[m
+[32m+[m
+[32m+[m[32m// cursoDeIngles.AdicionarAluno(p1);[m
+[32m+[m[32m// cursoDeIngles.AdicionarAluno(p2);[m
+[32m+[m[32m// cursoDeIngles.ListarAlunos();[m
+ [m
+ [m
+ [m
+[1mdiff --git a/bin/Debug/net7.0/ExemploExplorando.dll b/bin/Debug/net7.0/ExemploExplorando.dll[m
+[1mindex 7afcd2e..31bd30b 100644[m
+Binary files a/bin/Debug/net7.0/ExemploExplorando.dll and b/bin/Debug/net7.0/ExemploExplorando.dll differ
+[1mdiff --git a/bin/Debug/net7.0/ExemploExplorando.pdb b/bin/Debug/net7.0/ExemploExplorando.pdb[m
+[1mindex efdd892..c539b86 100644[m
+Binary files a/bin/Debug/net7.0/ExemploExplorando.pdb and b/bin/Debug/net7.0/ExemploExplorando.pdb differ
+[1mdiff --git a/obj/Debug/net7.0/ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig b/obj/Debug/net7.0/ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig[m
+[1mindex 90a0a94..ba2dff4 100644[m
+[1m--- a/obj/Debug/net7.0/ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig[m
+[1m+++ b/obj/Debug/net7.0/ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig[m
+[36m@@ -8,4 +8,4 @@[m [mbuild_property.PlatformNeutralAssembly =[m
+ build_property.EnforceExtendedAnalyzerRules = [m
+ build_property._SupportedPlatformList = Linux,macOS,Windows[m
+ build_property.RootNamespace = ExemploExplorando[m
+[31m-build_property.ProjectDir = j:\C#\ExemploExplorando\[m
+[32m+[m[32mbuild_property.ProjectDir = J:\C#\ExemploExplorando\[m
+[1mdiff --git a/obj/Debug/net7.0/ExemploExplorando.assets.cache b/obj/Debug/net7.0/ExemploExplorando.assets.cache[m
+[1mindex 52b48fc..7f1381c 100644[m
+Binary files a/obj/Debug/net7.0/ExemploExplorando.assets.cache and b/obj/Debug/net7.0/ExemploExplorando.assets.cache differ
+[1mdiff --git a/obj/Debug/net7.0/ExemploExplorando.dll b/obj/Debug/net7.0/ExemploExplorando.dll[m
+[1mindex 7afcd2e..31bd30b 100644[m
+Binary files a/obj/Debug/net7.0/ExemploExplorando.dll and b/obj/Debug/net7.0/ExemploExplorando.dll differ
+[1mdiff --git a/obj/Debug/net7.0/ExemploExplorando.pdb b/obj/Debug/net7.0/ExemploExplorando.pdb[m
+[1mindex efdd892..c539b86 100644[m
+Binary files a/obj/Debug/net7.0/ExemploExplorando.pdb and b/obj/Debug/net7.0/ExemploExplorando.pdb differ
